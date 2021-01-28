@@ -19,11 +19,11 @@ class Home extends React.Component{
       
        
         <div className='col' id='publishing'>
-          <button><Link to='/publishingMain'><h1>Publishing Services</h1></Link></button>
+          <Link to='/publishingMain'><h1>Publishing Services</h1></Link>
 
         </div>
         <div className='col' id='print'>
-          <button><Link to='/printMain'><h1>Printing Services</h1></Link></button>
+          <Link to='/printMain'><h1>Printing Services</h1></Link>
 
         </div>
 

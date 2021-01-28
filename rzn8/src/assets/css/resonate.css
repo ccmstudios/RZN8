@@ -173,7 +173,7 @@ background-image: url('../images/resonate.png');
     background-color: white;
     min-height: auto;
     align-items: center;
-    padding: 10px;
+    padding: 1px;
     font-family: 'Cinzel',serif;
     list-style: none;
 }
@@ -185,12 +185,12 @@ background-image: url('../images/resonate.png');
     list-style: none;
     display: flex;
     display: inline;
-    padding: 20px;
+    padding: 10px;
     
   }
 
   #navbar li:hover{
-      text-shadow: 8px 8px black;
+      text-shadow: 2px 2px black;
       transition: all 1s ease;
   }
 
@@ -208,7 +208,7 @@ background-image: url('../images/resonate.png');
         background: black; 
         height: 100vh;
         display: flex; 
-        justify-content: center; 
+        justify-content: center;
         align-items: center;
         background-image: url('../images/RZN8CHROME.png');
         background-size: 300px;
