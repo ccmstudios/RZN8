@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+body{
+    height: 100vh;
+}
+
+    #publishingMain{
+        background: white; 
+        background-image: url('../images/RZN8animation.gif');
+        height: 100vh;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    #printMain{
+        background: white; 
+        background-image: url('../images/RZN8LOGO.png');
+        height: 100vh;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+h5{
+    background: black;
+    border: black;
+    border: 5px;
+    padding: 8px;
+    font-family: 'Cinzel', serif;
+    color: white;
+    border-radius: 20%;
+}
+
+#printMain button{
+    position: absolute;
+    bottom: 0;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 2em;
+}
+
+    #publishingMain button{
+
+        position: absolute;
+        bottom: 0;
+        font-family: 'Cinzel', serif;
+        color:white;
+
+    
+    }
+
+    #publishingMain h1{
+        color: white;
+        background-color: black;
+    }
+    #printMain button{
+
+        position: absolute;
+        bottom: 0;
+        font-family: 'Cinzel', serif;
+    
+    }
+
+    #printMain h1{
+        color: white;
+    }
+
+#printMain h5{
+    color: white;
+    position: relative;
+    bottom: -200px;
+}
+
+#returnbtn{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+background-color: black;
+}
+
+#returnbtn:hover{
+    background-color: white;
+    transition: all 1.5s ease;
+}
+
+#pubbtn{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+background-color: black;
+}
+
+#pubbtn:hover{
+    background-color: white;
+    transition: all 1.5s ease;
+
+}
+
+.row{
+background-image: url('../images/resonate.png');
+}
+
+#print{
+    background: white; 
+    background-image: url('../images/resonate.png');
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#print a{
+    position: absolute;
+    bottom: 50px;
+    color: black;
+    font-family: 'Cinzel', serif;
+}
+
+#print:hover{
+    background-size: 700px;
+    background-color: #c0c0c0;
+    transition: all 1.5s ease;
+}
+
+#publishing{
+    background: black; 
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-image: url('../images/RZN8CHROME.png');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#publishing:hover{
+    background-size: 700px;
+    background-color: #696969;
+    transition: all 1.5s ease;
+}
+
+#publishing a{
+    position: absolute;
+    bottom: 50px;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+
+#navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    align-content: center;
+    justify-content: space-around;
+    background-color: white;
+    list-style: none;
+    display: flex;
+    transform: scale(1);
+    transition: transform 0.7s ease;
+    text-shadow: 1px 1px black;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    min-height: auto;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Cinzel',serif;
+    list-style: none;
+}
+
+#navbar li{
+    width: 100%;
+    font-size: 36px;
+    color: white;
+    list-style: none;
+    display: flex;
+    display: inline;
+    padding: 20px;
+    
+  }
+
+  #navbar li:hover{
+      text-shadow: 8px 8px black;
+      transition: all 1s ease;
+  }
+
+  #homebtn{
+      position: absolute;
+      bottom: 0;
+      right: 500px;
+      align-items: center;
+      align-content: center;
+  }
+
+ /* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    #publishing{
+        background: black; 
+        height: 100vh;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        background-image: url('../images/RZN8CHROME.png');
+        background-size: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    #publishing button{
+        align-content: center;
+        text-align: center;
+    justify-items: center;
+    padding-right:200px;
+    font-size: 20px;
+    }
+    #print{
+        background: white; 
+        height: 100vh;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        background-image: url('../images/RZN8CHROME.png');
+        background-size: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    #print button{
+        align-content: center;
+        text-align: center;
+    justify-items: center;
+    padding-right:200px;
+    }
+  
+    #printMain button{
+        position: absolute;
+        bottom: 0;
+        font-family: 'Cinzel', serif;
+        }
+
+        #printMain button h3{
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+    
+        #publishingMain button{
+    
+            position: absolute;
+            bottom: 0;
+            font-family: 'Cinzel', serif;
+           
+        
+        }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+
+
+#publishing{
+    background: black; 
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-image: url('../images/RZN8CHROME.png');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#publishing button{
+    align-content: center;
+    text-align: center;
+justify-items: center;
+padding-right:200px;
+font-size: 20px;
+color:white;
+}
+
+
+#print{
+    background: white; 
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-image: url('../images/RZN8CHROME.png');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#print button{
+    align-content: center;
+    text-align: center;
+justify-items: center;
+padding-right:200px;
+}
+
+#printMain{
+    background: white; 
+    background-image: url('../images/RZN8LOGO.png');
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-size: cover;
+    background-repeat: space;
+    background-position: center;
+    padding: 10px;
+    
+}
+
+#printMain button{
+    position: absolute;
+    bottom: 0;
+    font-family: 'Cinzel', serif;
+    /* letter-spacing: 2em; */
+    align-items: center;
+    align-content: center;
+}
+
+    #publishingMain button{
+
+        position: absolute;
+        bottom: 0;
+        font-family: 'Cinzel', serif;
+       
+    
+    }
+
+    #noticeDiv{
+        align-items: center;
+        align-content: center;
+        padding: 1px;
+        margin-bottom: 100px;
+    }
+  }
