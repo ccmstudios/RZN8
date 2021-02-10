@@ -1,9 +1,8 @@
 import React from 'react'
 import {BrowserRouter as Router,Switch,Route, Link} from 'react-router-dom';
-import Music from '../pages/music'
 import Books from '../pages/books'
-import Contact from '../pages/contact'
-import Clients from '../pages/clients'
+import Services from '../pages/services'
+import Clients from '../pages/clients';
 
 
 class Navbar extends React.Component{
@@ -12,9 +11,8 @@ class Navbar extends React.Component{
 <Router>
  <Switch>
             <Route exact path='/books' component={Books} />
-            <Route path='/music' component={Music} />
             <Route path='/clients' component={Clients} />
-            <Route path='/contact' component={Contact} />
+            <Route path='/services' component={Services} />
 
             
             <div id='navbar'>
@@ -25,9 +23,8 @@ class Navbar extends React.Component{
 <ul>
 
     <li><Link to='/books'>Books</Link></li>
-    <li><Link to='/music'>Music</Link></li>
     <li><Link to='/clients'>Clients</Link></li>
-    <li><Link to='/contact'>Contact</Link></li>
+    <li><Link to='/services'>Services</Link></li>
     </ul>
             </div>
     </Switch>

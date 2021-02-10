@@ -2,22 +2,22 @@
 
 body{
     height: 100vh;
+    padding:1px;
 }
 
     #publishingMain{
-        background: white; 
         background-image: url('../images/RZN8animation.gif');
-        height: 100vh;
         display: flex; 
+        height: 580px;
         justify-content: center; 
         align-items: center;
         background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+        background-repeat: repeat-y;
     }
     
+
     #printMain{
-        background: white; 
+        background: black; 
         background-image: url('../images/RZN8LOGO.png');
         height: 100vh;
         display: flex; 
@@ -28,6 +28,31 @@ body{
         background-position: center;
         
     }
+
+    #books{
+        height: 500px;
+    }
+
+    #services{
+        height: 500px;
+    }
+    
+     #clients{
+         height: 600px;
+       padding: 1%;
+       
+    }
+
+    #welcome{
+        height: 500px;
+    }
+
+h2{
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: 'Cinzel', serif;
+
+}
 h5{
     background: black;
     border: black;
@@ -58,6 +83,8 @@ h5{
     #publishingMain h1{
         color: white;
         background-color: black;
+        font-family: 'Cinzel', serif;
+
     }
     #printMain button{
 
@@ -69,6 +96,10 @@ h5{
 
     #printMain h1{
         color: white;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Cinzel', serif;
+
     }
 
 #printMain h5{
@@ -185,7 +216,7 @@ background-image: url('../images/resonate.png');
     list-style: none;
     display: flex;
     display: inline;
-    padding: 10px;
+    padding: 5px;
     
   }
 
@@ -197,19 +228,37 @@ background-image: url('../images/resonate.png');
   #homebtn{
       position: absolute;
       bottom: 0;
-      right: 500px;
+      right: 0;
+      left:0;
       align-items: center;
       align-content: center;
   }
 
+  #pubbtn{
+    position: absolute;
+    bottom: -300;
+    right: 0;
+    left: 0;
+    align-items: center;
+    align-content: center;
+}
 
-  .card{
-      height:35em;
+.overflow {
+    overflow: hidden;
+  }
+  
+  .card-img-top {
+    transform: scale(1);
+    transition: transform 0.5s ease;
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.1);
   }
 
-  #bookCards 
+  #bookCards
   {
-      height:50em;
+      height:80em;
   }
  /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {

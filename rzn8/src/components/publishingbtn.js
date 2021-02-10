@@ -9,7 +9,7 @@ class Return extends React.Component{
             <div id='pubbtn'>
             <Route exact path='/' component={Home} />
 
-            <button type="button" class="btn btn-lg btn-light"><Link to='/'>Return to Publishing Home</Link></button>
+            <button type="button" class="btn btn-lg btn-dark"><Link to='/'>Return to Publishing Home</Link></button>
             </div>
         )
     }
